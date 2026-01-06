@@ -8,7 +8,11 @@
   <name>Login-logout-system Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-servlet-api</artifactId>
+      <version>11.0.0-M11</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>Login-logout-system</finalName>
